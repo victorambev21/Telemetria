@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Relatório Atualizado</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            margin: 0;
+            padding: 0;
+        }
+        img {
+            width: 100%;
+            height: 100vh;
+            object-fit: contain;
+            margin-top: 0;
+        }
+    </style>
+</head>
+<body>
+    <!-- <h1>Relatório Atualizado</h1>
+    <p>Última atualização: <span id="dataAtualizacao"></span></p> -->
+    
+    <!-- Troque o caminho para apontar para sua imagem -->
+    <img src="Telemetria.png" alt="Imagem do Relatório">
+
+    <script>
+        // Atualiza a data de forma automática
+        document.getElementById("dataAtualizacao").textContent = new Date().toLocaleDateString();
+    </script>
+</body>
+</html>
